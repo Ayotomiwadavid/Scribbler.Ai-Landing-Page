@@ -1,10 +1,10 @@
 import React from "react";
-import { Button } from "flowbite-react";
+import Herosection from "./Components/Herosection";
 
 const App = () => {
   return (
-    <div className="w-full h-lvh flex items-center justify-center bg-slate-400">
-      <Button>Click me</Button>
+    <div>
+     <Herosection />
     </div>
   );
 };
