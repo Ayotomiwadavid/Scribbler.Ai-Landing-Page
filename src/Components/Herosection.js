@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import copyWriter from "../Images/copywriter.png";
+import Partners from "./Partners";
 
 export default function Example() {
   return (
@@ -33,6 +34,9 @@ export default function Example() {
           </div>
         </div>
       </aside>
+      <section className="w-full flex flex-col items-center justify-center px-[10vw] bg-[#F8FAFC]">
+        <Partners />
+      </section>
     </section>
   );
 }
