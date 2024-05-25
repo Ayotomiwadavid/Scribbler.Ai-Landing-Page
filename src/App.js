@@ -7,6 +7,7 @@ import Review from "../src/Components/Review";
 import Pricing from "./Components/Pricing";
 import Faqs from "./Components/Faqs";
 import LatCTA from "./Components/LatCTA";
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Pricing />
       <Faqs />
       <LatCTA />
+      <Footer />
     </section>
   );
 };

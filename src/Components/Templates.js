@@ -188,7 +188,7 @@ const Template = () => {
     ];
 
   return (
-    <div>
+    <div className="py-6">
       <div className="flex flex-wrap items-center justify-center pb-8 lg:pb-12">
         <div className="w-full sm:w-4/5 md:w-3/5 xl:w-2/5 text-center mx-auto">
           <div className="text-xs inline-flex font-medium text-white bg-gradient-to-r from-blue-600 to-pink-500 px-3 py-1 tracking-wider rounded mb-2">
