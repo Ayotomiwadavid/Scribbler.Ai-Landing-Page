@@ -4,6 +4,9 @@ import Partners from "./Components/Partners";
 import Satisfaction from "./Components/Satisfaction";
 import Template from "./Components/Templates";
 import Review from "../src/Components/Review";
+import Pricing from "./Components/Pricing";
+import Faqs from "./Components/Faqs";
+import LatCTA from "./Components/LatCTA";
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
         <Template />
       </section>
       <Review />
+      <Pricing />
+      <Faqs />
+      <LatCTA />
     </section>
   );
 };

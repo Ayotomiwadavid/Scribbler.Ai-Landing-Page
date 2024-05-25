@@ -2,6 +2,15 @@ import { StarIcon } from '@heroicons/react/24/outline'
 import { Container } from '@mui/material'
 import React from 'react'
 import Masonry from 'react-layout-masonry'
+import firstImage from '../Images/1.jpg'
+import secondImage from '../Images/2.jpg'
+import thirdImage from '../Images/3.jpg'
+import fourthImage from '../Images/4.jpg'
+import fifthImage from '../Images/5.jpg'
+import sixthImage from '../Images/6.jpg'
+import seventhImage from '../Images/7.jpg'
+import eighthImage from '../Images/8.jpg'
+import ninthImage from '../Images/1.jpg'
 
 const Review = () => {
     const reviews = [
@@ -10,7 +19,7 @@ const Review = () => {
             comment: "Absolutely blown away by the AI Content Generator from TechWiz! It effortlessly transformed my ideas into engaging and polished content. Say goodbye to writer's block!",
             customer : {
                 name: "Sarah Thompson",
-                avatar: "../Images/1.jpg",
+                avatar: firstImage,
                 intro: "TechWiz Innovations"
             }
         },
@@ -19,7 +28,7 @@ const Review = () => {
             comment: "Content Generator is a game-changer! It understands context and delivers spot-on content. My team's productivity has soared since we started using it.",
             customer : {
                 name: "Alex Rodriguez",
-                avatar: "../Images/2.jpg",
+                avatar: secondImage,
                 intro: "DataCraft Solutions"
             }
         },
@@ -28,7 +37,7 @@ const Review = () => {
             comment: "Kudos to Insightful Marketing's AI Content Generator! It saved me hours of brainstorming, generating high-quality content in minutes. My clients are impressed!",
             customer : {
                 name: "Emily Chen",
-                avatar: "../Images/3.jpg",
+                avatar: thirdImage,
                 intro: "Insightful Marketing"
             }
         },
@@ -37,7 +46,7 @@ const Review = () => {
             comment: "Generator is like having a brilliant writing assistant. It adapts to my style, understands nuances, and consistently delivers top-notch content.",
             customer : {
                 name: "Jason Patel",
-                avatar: "../Images/4.jpg",
+                avatar: fourthImage,
                 intro: "Quantum Creations"
             }
         },
@@ -46,7 +55,7 @@ const Review = () => {
             comment: "Visionary Tech's AI Content Generator is a must-have for content creators. It not only enhances efficiency but also maintains the creativity needed for impactful content.",
             customer : {
                 name: "Mia Thompson",
-                avatar: "../Images/5.jpg",
+                avatar: fifthImage,
                 intro: "Visionary Tech"
             }
         },
@@ -55,7 +64,7 @@ const Review = () => {
             comment: "InnovateX Dynamics' AI Content Generator is a marvel. It took our content game to the next level, generating content that resonates with our audience. Impressive",
             customer : {
                 name: "Daniel Park",
-                avatar: "../Images/6.jpg",
+                avatar: sixthImage,
                 intro: "InnovateX Dynamics"
             }
         },
@@ -64,7 +73,7 @@ const Review = () => {
             comment: "Exceeded my expectations. It's like having a writing wizard on my team. Consistently delivers quality content.",
             customer : {
                 name: "Lauren Miller",
-                avatar: "Images/7.jpg",
+                avatar: seventhImage,
                 intro: "Pinnacle Insights"
             }
         },
@@ -73,7 +82,7 @@ const Review = () => {
             comment: "Synthetix Solutions' AI Content Generator is a lifesaver for content marketers. It understands industry jargon and effortlessly crafts content that aligns with our brand.",
             customer : {
                 name: "Kevin Johnson",
-                avatar: "../Images/8.jpg",
+                avatar: eighthImage,
                 intro: "Synthetix Solutions"
             }
         },
@@ -82,7 +91,7 @@ const Review = () => {
             comment: "Insightful Innovations' AI Content Generator is a genius tool! It adapts to our changing content needs, providing a seamless experience. Say hello to stress-free content creation!",
             customer : {
                 name: "Olivia Richards",
-                avatar: "../Images/9.jpg",
+                avatar:ninthImage,
                 intro: "Insightful Innovations"
             }
         },
